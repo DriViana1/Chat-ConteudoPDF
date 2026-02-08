@@ -1,12 +1,12 @@
-📚 # Sistema de Busca Inteligente com RAG para Apoio ao TCC
+# 📚 Sistema de Busca Inteligente com RAG para Apoio ao TCC
 
-📌 ## Visão Geral
+## 📌 Visão Geral
 
 Durante a elaboração de um Trabalho de Conclusão de Curso (TCC), é comum lidar com uma grande quantidade de artigos científicos e documentos em PDF. À medida que o volume de material cresce, torna-se cada vez mais desafiador localizar informações relevantes, correlacionar ideias entre diferentes textos e responder perguntas específicas com agilidade.
 
 Diante desse cenário, este projeto propõe o desenvolvimento de um sistema de busca inteligente baseado em Inteligência Artificial, utilizando a abordagem RAG (Retrieval-Augmented Generation). O sistema interpreta documentos PDF, organiza seus conteúdos em um banco vetorial e permite a interação por meio de um chat capaz de gerar respostas contextualizadas e fundamentadas exclusivamente nos documentos carregados.
 
-🎯 ## Objetivo do Projeto
+## 🎯 Objetivo do Projeto
 
 O objetivo principal deste projeto é auxiliar estudantes e pesquisadores na etapa de revisão bibliográfica, oferecendo uma ferramenta capaz de:
 
@@ -16,7 +16,7 @@ O objetivo principal deste projeto é auxiliar estudantes e pesquisadores na eta
 ✅ Disponibilizar um chat interativo para consultas em linguagem natural.
 ✅ Facilitar a análise, comparação e correlação de informações entre múltiplos documentos.
 
-🧠 ## Arquitetura da Solução
+## 🧠 Arquitetura da Solução
 
 O sistema foi desenvolvido utilizando a arquitetura RAG (Retrieval-Augmented Generation), composta pelas seguintes etapas:
 Ingestão de Documentos
@@ -30,7 +30,7 @@ Recuperação dos trechos mais relevantes com base na pergunta do usuário.
 Geração de Respostas
 Utilização do modelo LLaMA 3 (Hugging Face) para gerar respostas baseadas exclusivamente nos documentos recuperados.
 
-🧩 ## Componentes do Sistema
+ ## 🧩 Componentes do Sistema
 
 O projeto é composto por três principais módulos:
 
@@ -46,7 +46,7 @@ Vetorização dos documentos
 Armazenamento no banco vetorial
 Busca por similaridade
 
-🚀 ## Execução do Projeto
+## 🚀 Execução do Projeto
 📦 Dependências
 
 Crie e ative um ambiente virtual:
@@ -70,7 +70,7 @@ Hugging Face (LLaMA 3) – Modelo de linguagem
 ChromaDB – Banco de dados vetorial
 PDF Loader – Extração de texto dos PDFs
 
-🔧 ## Melhorias Futuras
+ ##🔧 Melhorias Futuras
 
 Algumas melhorias planejadas para evoluir o projeto:
 
@@ -80,7 +80,7 @@ Algumas melhorias planejadas para evoluir o projeto:
 🔹 Indicação explícita das fontes utilizadas em cada resposta.
 🔹 Controle de versões dos documentos carregados.
 
-🎓 ## Contexto Acadêmico
+ ##🎓 Contexto Acadêmico
 
 Este projeto foi desenvolvido com foco acadêmico, servindo como apoio direto à elaboração de um Trabalho de Conclusão de Curso (TCC) na área de Engenharia de Software, explorando conceitos de:
 Inteligência Artificial
