@@ -1,5 +1,6 @@
-📚 ## Sistema de Busca Inteligente com RAG para Apoio ao TCC
-📌 ##Visão Geral
+📚 # Sistema de Busca Inteligente com RAG para Apoio ao TCC
+
+📌 ## Visão Geral
 
 Durante a elaboração de um Trabalho de Conclusão de Curso (TCC), é comum lidar com uma grande quantidade de artigos científicos e documentos em PDF. À medida que o volume de material cresce, torna-se cada vez mais desafiador localizar informações relevantes, correlacionar ideias entre diferentes textos e responder perguntas específicas com agilidade.
 
@@ -82,8 +83,7 @@ Algumas melhorias planejadas para evoluir o projeto:
 🎓 ## Contexto Acadêmico
 
 Este projeto foi desenvolvido com foco acadêmico, servindo como apoio direto à elaboração de um Trabalho de Conclusão de Curso (TCC) na área de Engenharia de Software, explorando conceitos de:
-
-## Inteligência Artificial
+Inteligência Artificial
 Processamento de Linguagem Natural (NLP)
 Recuperação de Informação
 Sistemas de Busca Inteligente
